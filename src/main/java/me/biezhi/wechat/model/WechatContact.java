@@ -36,5 +36,11 @@ public class WechatContact {
 	public void setGroupList(JSONArray groupList) {
 		this.groupList = groupList;
 	}
+
+	@Override
+	public String toString() {
+		return "WechatContact [memberList=" + memberList + ", contactList=" + contactList + ", groupList=" + groupList
+				+ "]";
+	}
 	
 }

@@ -90,7 +90,7 @@ public class WechatServiceImpl implements WechatService {
 						wechatContact.setMemberList(memberList);
 						
 						this.getGroup(wechatMeta, wechatContact);
-						
+						LOGGER.debug(wechatContact.toString());
 						return wechatContact;
 					}
 				}
